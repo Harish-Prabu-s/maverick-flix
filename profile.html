@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profile | MaverickMovieHotSpot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <header class="header">
+    <h2>MaverickMovieHotSpot</h2>
+    <nav>
+        <div class="nav-right">
+      <a href="home.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="tvshows.html">TV Shows</a>
+      <a href="webseries.html">Web Series</a>
+      <a href="profile.html">Profile</a>
+      <a href="login.html">🔑 Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Profile Page</h1>
+    <p><strong>Username:</strong> <span id="displayUsername"></span></p>
+    <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+
+  <script>
+     const username = localStorage.getItem("username");
+     document.getElementById("displayUsername").textContent = username || "Guest";
+    const email = localStorage.getItem("email");
+    document.getElementById("displayEmail").textContent = email || "Guest";
+  </script>
+  
+</body>
+</html>
