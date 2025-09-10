@@ -2,359 +2,301 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Home | MaverickFlix</title>
+  <title>TV Shows | MaverickMovieHotSpot</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
-    <h3>MaverickMovieHotSpot</h3>
+    <h1>MaverickMovieHotSpot</h1>
     <nav>
-      <div class="nav-right">
+        <div class="nav-right">  
       <a href="home.html">🏠 Home</a>
       <a href="tvshows.html">📺 TV Shows</a>
       <a href="webseries.html">🌐 Web Series</a>
       <a href="search.html">🔍 Search</a>
-      <a href="profile.html">👤<span id="displayUsername"></span></a>
+      <a href="profile.html">👤 <span id="display-username"></span></a>
       <a href="login.html">🔑 Login</a>
     </nav>
   </header>
- <header>
+
   <main>
-    <h3>Welcome, <span id="username"></span>!</h3>
-    <h2>Explore the most popular movies on MaverickMovieHotSpot.</h2> 
-    <!-- Movie sections go here -->
-  </header>
-  <script>
-    document.getElementById("username").innerText = localStorage.getItem("username") || "Guest";
-    document.getElementById("displayUsername").innerText = localStorage.getItem("username") || "Guest";
-  </script>
-
-<div class="right-text">
-  <h1 class="fw"> <h1>Popular Movie &amp; Web series <br> in multiple Languages</h1>
- 
-</div>
-</main>
-
-<div class="video-background">
-  <video autoplay muted loop playsinline>
-    <source src=".\video\HIT 3 Tamil Trailer _ Nani _ Sailesh Kolanu _ Srinidhi Shetty _ In Cinemas May 1st.mp4" type="video/mp4">
-
-  </video>
-  <div class="content">
-    <h1>Welcome to Maverick moviehotspot</h1>
-    <p>You can see movies and webseries at anywhere, anytime</p>
-  </div>
-</div>
-<h1>HIT 3</h1>
-<div class="video-background">
-  <video autoplay muted loop playsinline>
-    <source src=".\video\Good Bad Ugly Tamil Trailer _ Ajith Kumar _ Trisha _ Adhik Ravichandran _ Mythri Movie Makers.mp4">
-  </video>
-</div>
-<h1>GOOD BAD UGLY</h1>
-<div class="video-background">
-  <video autoplay muted loop playsinline>
-    <source src=".\video\Dragon - Trailer _ Pradeep Ranganathan, Anupama, Kayadu Lohar _ Ashwath Marimuthu _ Leon James _ AGS.mp4">
-  </video>
-</div>
-<h1>DRAGON</h1>
-  </section>
-  <div class="hero">
-    <h1>Most Popular Movies</h1>
-    <div class="button-row">
-      <button class="watch-now">
-        ▶ Watch Now
-      </button>
-    </div>
-    <section class="movie-row">
-    <div class="movie-thumbnails" id="trendingnow2">
-      <figure>
-    <img src = ".\images\hangover.jpg">
-    <figcaption><h1>Comedy</h1></figcaption>
-  </figure>
-      <figure>
-    <img src = ".\images\interstellar.jpg">
-    <figcaption><h1>Science Friction</h1>
-  </figure>
-  <figure>
-    <img src = ".\images\johnwick.jpg">
-    <figcaption><h1>Action</h1></figcaption>
-  </figure>
-  <figure>
-    <img src = ".\images\titanic.jpg">
-    <figcaption><h1>Drama</h1></figcaption>
-  </figure>
-  <figure>
-    <img src = ".\images\Fifty shades of grey.jpg">
-    <figcaption><h1>Romance</h1></figcaption>
-  </figure>
-    </div>
-  </section>
-    
-  </div>
-  <section class="movie-row">
-    <h2>2K25 New Trending Movies</h2>
-    <div class="button-row">
-      <button class="watch-now">
-        ▶ Watch Now
-      </button>
-    </div>
-    <br>
-    <div class="movie-thumbnails" id="trendingnow">
-      <figure>
-        <img src=".\images\captain america brave new  world.jpg">
-        <figcaption>Captain america brave new world</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\identity.jpg">
-        <figcaption>Identity</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\kadhalikka neramillai.jpg">
-        <figcaption>Kadhalikka neramillai</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\kudumbasthan.jpg">
-        <figcaption>Kudumbasthan</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\nilavuku en mel ennadi kobam.jpg">
-        <figcaption>Nilavuku en mel ennadi kobam</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\vidaamuyarchi.jpg">
-        <figcaption>Vidaamuyarchi</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\veera dheera sooran.jpg">
-        <figcaption>Veera dheera sooran</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\retro.jpg">
-        <figcaption>Retro</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\thunderbolts.jpg">
-        <figcaption>Thunderbolts</figcaption>
-        </figure>
-      </figure>
-        
-    </div>
-  </section>
-
-  <section class="movie-row">
-    <h2>Blockbusters</h2>
-    <div class="button-row">
-      <button class="watch-now">
-        ▶ Watch Now
-      </button>
-    </div>
-    <div class="movie-thumbnails" id="trendingnow2">
-      <figure>
-        <img src=".\images\titanic.jpg">
-        <figcaption>Titanic</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\spiderman.jpg">
-        <figcaption>Spider-Man:far form home</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\sonic the hedgehog.jpg">
-        <figcaption>Sonic the hedgehog</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\the dark kinght.jpg">
-        <figcaption>The dark knight</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\pacific rim.jpg">
-        <figcaption>Pacific rim:uprising</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\mufasa.jpg">
-        <figcaption>Mufasa the lion king</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\moana.jpg">
-        <figcaption>Moana</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\joker.jpg">
-        <figcaption>Joker</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\harry potter.jpg">
-        <figcaption>Harry potter the philosopher's stone</figcaption>
-        </figure>
-      </figure>
-    </div>
-
-  </section>
-  <section class="movie-row">
-    <h2>Top Web Series</h2>
-    <div class="button-row">
-      <button class="watch-now">
-        ▶ Watch Now
-      </button>
-    </div>
-    <div class="movie-thumbnails" id="trendingnow3">
-      <figure>
-        <img src=".\images\money heist.jpg">
-        <figcaption>Money heist</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\squid game.jpg">
-        <figcaption>Squid game</figcaption>
-        </figure>
-        <figure>
-          <img src=".\images\hangover.jpg">
-          <figcaption>Hangover</figcaption>
-          </figure>
+    <h2>Popular TV Shows</h2>
+    <div class="hero">
+        <h1>Most Popular Movies</h1>
+        <div class="button-row">
+          <button class="watch-now">
+            ▶ Watch Now
+          </button>
+        </div>
+        <section class="movie-row">
+        <div class="movie-thumbnails" id="trendingnow2">
           <figure>
-            <img src=".\images\the boys.jpg">
+        <img src = ".\hangover.jpg">
+        <figcaption><h1>Comedy</h1></figcaption>
+      </figure>
+          <figure>
+        <img src = ".\interstellar.jpg">
+        <figcaption><h1>Science Friction</h1></figcaption>
+      </figure>
+      <figure>
+        <img src = ".\johnwick.jpg">
+        <figcaption><h1>Action</h1></figcaption>
+      </figure>
+      <figure>
+        <img src = ".\titanic.jpg">
+        <figcaption><h1>Drama</h1></figcaption>
+      </figure>
+      <figure>
+        <img src = ".\Fifty shades of grey.jpg">
+        <figcaption><h1>Romance</h1></figcaption>
+      </figure>
+        </div>
+      </section>
+        
+      </div>
+      <section class="movie-row">
+        <h2>2K25 New Trending Movies</h2>
+        <div class="button-row">
+          <button class="watch-now">
+            ▶ Watch Now
+          </button>
+        </div>
+        <div class="movie-thumbnails" id="trendingnow">
+          <figure>
+            <img src=".\captain america brave new  world.jpg">
+            <figcaption>Captain america brave new world</figcaption>
+            </figure>
+            <figure>
+            <img src=".\identity.jpg">
+            <figcaption>Identity</figcaption>
+            </figure>
+            <figure>
+            <img src=".\kadhalikka neramillai.jpg">
+            <figcaption>Kadhalikka neramillai</figcaption>
+            </figure>
+            <figure>
+            <img src=".\kudumbasthan.jpg">
+            <figcaption>Kudumbasthan</figcaption>
+            </figure>
+            <figure>
+            <img src=".\nilavuku en mel ennadi kobam.jpg">
+            <figcaption>Nilavuku en mel ennadi kobam</figcaption>
+            </figure>
+            <figure>
+            <img src=".\vidaamuyarchi.jpg">
+            <figcaption>Vidaamuyarchi</figcaption>
+            </figure>
+            <figure>
+            <img src=".\veera dheera sooran.jpg">
+            <figcaption>Veera dheera sooran</figcaption>
+            </figure>
+            <figure>
+            <img src=".\retro.jpg">
+            <figcaption>Retro</figcaption>
+            </figure>
+            <figure>
+            <img src=".\thunderbolts.jpg">
+            <figcaption>Thunderbolts</figcaption>
+            </figure>
+          </figure>
+            
+        </div>
+      </section>
+    
+      <section class="movie-row">
+        <h2>Blockbusters</h2>
+        <div class="button-row">
+          <button class="watch-now">
+            ▶ Watch Now
+          </button>
+        </div>
+        <div class="movie-thumbnails" id="trendingnow2">
+          <figure>
+            <img src=".\titanic.jpg">
+            <figcaption>Titanic</figcaption>
+            </figure>
+            <figure>
+            <img src=".\spiderman.jpg">
+            <figcaption>Spider-Man:far form home</figcaption>
+            </figure>
+            <figure>
+            <img src=".\sonic the hedgehog.jpg">
+            <figcaption>Sonic the hedgehog</figcaption>
+            </figure>
+            <figure>
+            <img src=".\the dark kinght.jpg">
+            <figcaption>The dark knight</figcaption>
+            </figure>
+            <figure>
+            <img src=".\pacific rim.jpg">
+            <figcaption>Pacific rim:uprising</figcaption>
+            </figure>
+            <figure>
+            <img src=".\mufasa.jpg">
+            <figcaption>Mufasa the lion king</figcaption>
+            </figure>
+            <figure>
+            <img src=".\moana.jpg">
+            <figcaption>Moana</figcaption>
+            </figure>
+            <figure>
+            <img src=".\joker.jpg">
+            <figcaption>Joker</figcaption>
+            </figure>
+            <figure>
+            <img src=".\harry potter.jpg">
+            <figcaption>Harry potter the philosopher's stone</figcaption>
+            </figure>
+          </figure>
+        </div>
+    
+      </section>
+      <section class="movie-row">
+        <h2>Top Web Series</h2>
+        <div class="button-row">
+          <button class="watch-now">
+            ▶ Watch Now
+          </button>
+        </div>
+        <div class="movie-thumbnails" id="trendingnow3">
+          <figure>
+            <img src=".\money heist.jpg">
+            <figcaption>Money heist</figcaption>
+            </figure>
+            <figure>
+            <img src=".\squid game.jpg">
+            <figcaption>Squid game</figcaption>
+            </figure>
+            <figure>
+              <img src=".\hangover.jpg">
+              <figcaption>Hangover</figcaption>
+              </figure>
+              <figure>
+                <img src=".\the boys.jpg">
+                <figcaption>The boys</figcaption>
+                </figure>
+            <figure>
+            <img src=".\peaky blinders.jpg">
+            <figcaption>Peaky blinders</figcaption>
+            </figure>
+            <figure>
+            <img src=".\breaking bad.jpg">
+            <figcaption>Breaking bad</figcaption>
+            </figure>
+            <figure>
+            <img src=".\daredevil.jpg">
+            <figcaption>Daredevil</figcaption>
+            </figure>
+            <figure>
+            <img src=".\game of thrones.jpgg">
+            <figcaption>Game of thrones</figcaption>
+            </figure>
+            <figure>
+              <img src=".\stranger things.jpg">
+              <figcaption>Stranger things</figcaption>
+              </figure>
+          </figure>
+          </div>
+        
+      </section>
+    
+      <section class="movie-row">
+        <h2>Top watching movies</h2>
+        <div class="button-row">
+          <button class="watch-now">
+            ▶ Watch Now
+          </button>
+        </div>
+        <div class="movie-thumbnails" id="trendingnow4">
+          <figure>
+            <img src=".\titanic.jpg">
+            <figcaption>Titanic</figcaption>
+            </figure>
+            <figure>
+            <img src=".\Fifty shades of grey.jpg">
+            <figcaption>Fifty shades of grey</figcaption>
+            </figure>
+            <figure>
+            <img src=".\johnwick.jpg">
+            <figcaption>Johnwick</figcaption>
+            </figure>
+            <figure>
+            <img src=".\the dark kinght.jpg">
+            <figcaption>The dark knight</figcaption>
+            </figure>
+            <figure>
+            <img src=".\pacific rim.jpg">
+            <figcaption>Pacific rim:uprising</figcaption>
+            </figure>
+            <figure>
+            <img src=".\the boys.jpg">
             <figcaption>The boys</figcaption>
             </figure>
-        <figure>
-        <img src=".\images\peaky blinders.jpg">
-        <figcaption>Peaky blinders</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\breaking bad.jpg">
-        <figcaption>Breaking bad</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\daredevil.jpg">
-        <figcaption>Daredevil</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\game of thrones.jpgg">
-        <figcaption>Game of thrones</figcaption>
-        </figure>
-        <figure>
-          <img src=".\images\stranger things.jpg">
-          <figcaption>Stranger things</figcaption>
+            <figure>
+            <img src=".\moana.jpg">
+            <figcaption>Moana</figcaption>
+            </figure>
+            <figure>
+            <img src=".\thunderbolts.jpg">
+            <figcaption>Thunderbolts</figcaption>
+            </figure>
+            <figure>
+            <img src=".\harry potter.jpg">
+            <figcaption>Harry potter the philosopher's stone</figcaption>
+            </figure>
           </figure>
-      </figure>
-      </div>
+        </div>
+      </section>
     
-  </section>
-
-  <section class="movie-row">
-    <h2>Top watching movies</h2>
-    <div class="button-row">
-      <button class="watch-now">
-        ▶ Watch Now
-      </button>
-    </div>
-    <div class="movie-thumbnails" id="trendingnow4">
-      <figure>
-        <img src=".\images\titanic.jpg">
-        <figcaption>Titanic</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\Fifty shades of grey.jpg">
-        <figcaption>Fifty shades of grey</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\johnwick.jpg">
-        <figcaption>Johnwick</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\the dark kinght.jpg">
-        <figcaption>The dark knight</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\pacific rim.jpg">
-        <figcaption>Pacific rim:uprising</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\the boys.jpg">
-        <figcaption>The boys</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\moana.jpg">
-        <figcaption>Moana</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\thunderbolts.jpg">
-        <figcaption>Thunderbolts</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\harry potter.jpg">
-        <figcaption>Harry potter the philosopher's stone</figcaption>
-        </figure>
-      </figure>
-    </div>
-  </section>
-
-  <section class="movie-row">
-    <h2>Top Action movies</h2>
-    <div class="button-row">
-      <button class="watch-now">
-        ▶ Watch Now
-      </button>
-    </div>
-    <div class="movie-thumbnails" id="trendingnow5">
-      <figure>
-        <img src=".\images\the gray man.jpg">
-        <figcaption>The gray man</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\iron man.jpg">
-        <figcaption>Iron man</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\extraction.jpg">
-        <figcaption>Extraction</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\pacific rim.jpg">
-        <figcaption>Pacific rim:uprising</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\the boys.jpg">
-        <figcaption>The boys</figcaption>
-        </figure>
-        <figure>
-          <img src=".\images\johnwick.jpg">
-          <figcaption>Johnwick</figcaption>
+      <section class="movie-row">
+        <h2>Top Action movies</h2>
+        <div class="button-row">
+          <button class="watch-now">
+            ▶ Watch Now
+          </button>
+        </div>
+        <div class="movie-thumbnails" id="trendingnow5">
+          <figure>
+            <img src=".\the gray man.jpg">
+            <figcaption>The gray man</figcaption>
+            </figure>
+            <figure>
+            <img src=".\iron man.jpg">
+            <figcaption>Iron man</figcaption>
+            </figure>
+            <figure>
+            <img src=".\extraction.jpg">
+            <figcaption>Extraction</figcaption>
+            </figure>
+            <figure>
+            <img src=".\pacific rim.jpg">
+            <figcaption>Pacific rim:uprising</figcaption>
+            </figure>
+            <figure>
+            <img src=".\the boys.jpg">
+            <figcaption>The boys</figcaption>
+            </figure>
+            <figure>
+              <img src=".\johnwick.jpg">
+              <figcaption>Johnwick</figcaption>
+              </figure>
+            <figure>
+            <img src=".\inception.jpg">
+            <figcaption>Inception</figcaption>
+            </figure>
+            <figure>
+            <img src=".\the fall guy.jpg">
+            <figcaption>The fall guy</figcaption>
+            </figure>
+            <figure>
+            <img src=".\top gun maverick.jpg">
+            <figcaption>Top gun: maverick</figcaption>
+            </figure>
           </figure>
-        <figure>
-        <img src=".\images\inception.jpg">
-        <figcaption>Inception</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\the fall guy.jpg">
-        <figcaption>The fall guy</figcaption>
-        </figure>
-        <figure>
-        <img src=".\images\top gun maverick.jpg">
-        <figcaption>Top gun: maverick</figcaption>
-        </figure>
-      </figure>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-links">
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">FAQ</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Help Center</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Account</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Media Center</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Investor Relations</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Jobs</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Redeem Gift Cards</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Buy Gift Cards</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Terms of Use</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Privacy</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Cookie Preferences</a>
-        <a href="file:///C:/Users/SUN%20DIRECT/html/css%20project/home.html">Corporate Information</a>
-      </div>
-      <div class="footer-bottom">
-        <p>© 2025 Maverick Moviehotspot, Inc. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+        </div>
+      </section>
+  <script>
+    document.getElementById("display-username").innerText = localStorage.getItem("username") || "Guest";
+  </script>
 </body>
 </html>
